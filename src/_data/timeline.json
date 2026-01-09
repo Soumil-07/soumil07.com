@@ -21,18 +21,22 @@
     "year": 2024,
     "title": "Software Engineering Intern",
     "location": "JPMorganChase, Mumbai",
+    "image": "/assets/images/jpmc.jpeg",
+    "imageAlt": "JPMorgan Chase & Co.",
     "description": "Part of Corporate and Investment Banking, spearheaded the development of an automation tool for .NET Framework to Core migration, achieving a 95% reduction in migration times using static code analysis"
   },
   {
     "date": "Jun. 2023 - Aug. 2023",
     "year": 2023,
     "title": "Software Engineering Intern",
-    "location": "JPMorganChase"
+    "description": "Assisted in deployment, debugging, and writing Kubernetes manifests for the WMDM team in the document management space.",
+    "location": "JPMorganChase, Bengaluru"
   },
   {
     "date": "2020 - 2024",
     "year": 2020,
     "title": "B.Tech in Electronics & Telecommunication Engineering",
-    "location": "VIT Pune"
+    "description": "Graduated with a CGPA of 8.9 from VIT, Pune, with a departmental rank of 5/304. Took courses in data structures, algorithms, computer architecture, operating systems, and embedded systems.",
+    "location": "Vishwakarma Institute of Technology, Pune"
   }
 ]

@@ -37,10 +37,9 @@ export default function (eleventyConfig) {
     }),
   ]);
 
-  // Passthrough only static assets that don't get processed by Tailwind
-  // to avoid overwriting the compiled CSS in dist/assets/styles.
+  // passthrough images and docs
   eleventyConfig.addPassthroughCopy("src/assets/images");
-
+  eleventyConfig.addPassthroughCopy("src/documents");
 
   return {
     dir: { input: 'src', output: 'dist' },

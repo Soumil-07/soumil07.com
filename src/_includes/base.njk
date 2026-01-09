@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-zinc-800 text-white">
+
+  <head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/assets/styles/index.css">
+    <script src="https://kit.fontawesome.com/eae4f1499d.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  {% include "navbar.njk" %}
+  <body class="flex flex-col h-screen items-center justify-center">
+        {{ content | safe }}
+        <p class="text-sm text-white/50 my-5">Copyright © 2026 Soumil Paranjpay. All rights reserved.</p>
+  </body>
+</html>

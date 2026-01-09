@@ -1,0 +1,45 @@
+<section class="grid gap-6 md:grid-cols-2">
+  {% for project in projects %}
+    <article class="rounded-xl border border-zinc-700/80 bg-zinc-900/40 p-5 flex flex-col justify-between">
+      <div class="space-y-2">
+        <div class="flex items-baseline justify-between gap-3">
+          <h2 class="text-lg font-semibold">{{ project.title }}</h2>
+          {% if project.period %}
+            <span class="text-xs text-gray-400 whitespace-nowrap">
+              {{ project.period }}
+            </span>
+          {% endif %}
+        </div>
+
+        {% if project.summary %}
+          <p class="text-sm text-gray-300 leading-relaxed">
+            {{ project.summary }}
+          </p>
+        {% endif %}
+
+        {% if project.tags %}
+          <ul class="mt-3 flex flex-wrap gap-2 text-xs">
+            {% for tag in project.tags %}
+              <li class="rounded-full bg-zinc-800 px-2.5 py-1 text-gray-200">
+                {{ tag }}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+
+      {% if project.link %}
+        <div class="mt-4">
+          <a
+            href="{{ project.link }}"
+            target="_blank"
+            class="inline-flex items-center text-sm font-medium text-sky-400 hover:text-sky-300"
+          >
+            {{ project.linkLabel or 'View project' }}
+            <span class="ml-1">↗</span>
+          </a>
+        </div>
+      {% endif %}
+    </article>
+  {% endfor %}
+</section>

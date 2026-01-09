@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Reconfigurable Systolic Array AI Accelerator",
+    "period": "Sep. 2025 - Dec. 2025",
+    "summary": "RTL Design, prototyping, and verification of a 16x16 systolic array AI accelerator, with reconfigurable SIMD and output-stationary modes for maximum flexibility.",
+    "tags": ["Verilog", "Python", "PyTorch"]
+  },
+  {
+    "title": "Croc",
+    "period": "Mar. 2025 - Jun. 2025",
+    "summary": "PULP Platform SoC with modified RV32 CPU core incorporating a faster multiplier/adder datapath, and formal verification of critical APB components.",
+    "tags": ["Verilog", "OpenROAD", "Yosys", "SymbiYosys"],
+    "link": "https://github.com/Soumil-07/croc",
+    "linkLabel": "Source"
+  },
+  {
+    "title": "PRF Generation using GGM Tree Construction",
+    "period": "Mar. 2025 - Jun. 2025",
+    "summary": "Pseudorandom Function (PRF) Generation using GGM Tree Construction on AES and Blake2S hash functions. Parallelized using CUDA.",
+    "tags": ["C", "CUDA"],
+    "link": "https://github.com/Soumil-07/ggm-tree-prf",
+    "linkLabel": "Source"
+  }
+]

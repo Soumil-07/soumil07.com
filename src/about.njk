@@ -1,19 +1,9 @@
 ---
+layout: base.njk
 title: About • soumil07.com
 ---
 
-<!DOCTYPE html>
-<html lang="en" class="bg-zinc-800 text-white">
-  <head>
-    <title>{{ title }}</title>
-    <link rel="stylesheet" href="/assets/styles/index.css">
-    <script src="https://kit.fontawesome.com/eae4f1499d.js" crossorigin="anonymous"></script>
-  </head>
-
-  <body>
-    {% include "navbar.njk" %}
-
-    <main class="max-w-5xl mx-auto mt-24 px-10 space-y-10">
+    <div class="max-w-5xl mx-auto flex-grow px-10 space-y-10">
       {# <section>
         <h1 class="text-4xl font-bold mb-4">About</h1>
         <p class="text-gray-300 leading-relaxed">
@@ -23,6 +13,4 @@ title: About • soumil07.com
       </section> #}
 
       {% include "timeline.njk" %}
-    </main>
-  </body>
-</html>
+    </div>
