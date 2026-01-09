@@ -1,0 +1,38 @@
+[
+  {
+    "date": "Jan. 2026 - Present",
+    "year": 2026,
+    "title": "GPU Architecture Engineer",
+    "location": "Apple, Santa Clara",
+    "description": "Part of the GPU Memory Hierarchy group, I work on functional modeling and maintaining hardware simulators in C++.",
+    "image": "/assets/images/apple_park.jpeg"
+  },
+  {
+    "date": "Sep. 2024 - Dec. 2025",
+    "year": 2024,
+    "title": "MS in ECE",
+    "location": "UC San Diego",
+    "description": "As a grad student in ECE at UCSD, I specialized in Computer Engineering and took courses in computer architecture, GPU programming, and digital design.",
+    "image": "/assets/images/ucsd.webp",
+    "imageAlt": "Grad School - UCSD"
+  },
+  {
+    "date": "Jan. 2024 - Jun. 2024",
+    "year": 2024,
+    "title": "Software Engineering Intern",
+    "location": "JPMorganChase, Mumbai",
+    "description": "Part of Corporate and Investment Banking, spearheaded the development of an automation tool for .NET Framework to Core migration, achieving a 95% reduction in migration times using static code analysis"
+  },
+  {
+    "date": "Jun. 2023 - Aug. 2023",
+    "year": 2023,
+    "title": "Software Engineering Intern",
+    "location": "JPMorganChase"
+  },
+  {
+    "date": "2020 - 2024",
+    "year": 2020,
+    "title": "B.Tech in Electronics & Telecommunication Engineering",
+    "location": "VIT Pune"
+  }
+]
