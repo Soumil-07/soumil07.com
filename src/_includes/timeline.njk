@@ -1,7 +1,7 @@
-<section id="timeline" class="w-full max-w-3xl mx-auto mt-16">
+<section id="timeline" class="w-full max-w-3xl mx-auto mt-4 md:mt-8">
   <h2 class="text-3xl font-bold mb-8">Timeline</h2>
 
-  <div class="flex gap-8 items-start">
+  <div class="flex gap-2  sm:gap-8 items-start">
     <div class="shrink-0 sticky top-28">
       <div class="text-sm font-medium text-gray-300 mb-3">Years</div>
       <div id="timeline-year-column" class="flex flex-col gap-3 text-sm"></div>
@@ -24,7 +24,7 @@
               <img
                 src="{{ item.image }}"
                 alt="{{ item.imageAlt or item.title }}"
-                class="rounded-lg border border-zinc-700 max-h-56 object-cover"
+                class="rounded-lg border border-zinc-700 max-h-150 max-w-150 object-cover"
               >
             </div>
           {% endif %}

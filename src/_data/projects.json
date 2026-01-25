@@ -20,5 +20,13 @@
     "tags": ["C", "CUDA"],
     "link": "https://github.com/Soumil-07/ggm-tree-prf",
     "linkLabel": "Source"
+  },
+  {
+    "title": "Vertex",
+    "period": "Jun. 2025 - Aug. 2025",
+    "summary": "Simple 5-stage pipeline RISC-V core (RV32I) with unified memory interface.",
+    "tags": ["Verilog"],
+    "link": "https://github.com/Soumil-07/vertex",
+    "linkLabel": "Source"
   }
 ]

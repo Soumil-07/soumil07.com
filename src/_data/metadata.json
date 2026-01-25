@@ -1,0 +1,10 @@
+{
+    "title": "soumil07.com",
+    "description": "Personal website of Soumil Paranjpay, showcasing projects and blog posts.",
+    "url": "https://soumil07.com",
+    "author": {
+        "name": "Soumil Paranjpay",
+        "email": "soumil.paranjpay@gmail.com"
+    },
+    "ogImage": "/assets/images/pfp.jpeg"
+}

@@ -1,16 +1,31 @@
+{% set absolutePageUrl %}{{ metadata.url }}{{ page.url }}{% endset %}
+{% set css %} {% include "./styles/index.css" %} {% endset %}
+
 <!DOCTYPE html>
 <html lang="en" class="bg-zinc-800 text-white">
 
   <head>
-    <title>{{ title }}</title>
-    <link rel="stylesheet" href="/assets/styles/index.css">
+    <title>{{ title or metadata.title }}</title>
+    <meta name="description" content="{{ description or metadata.description }}">
+    <link rel="canonical" href="{{ absolutePageUrl }}">
+
+    <meta property="og:type" content="{{ ogType or 'website' }}">
+    <meta property="og:url" content="{{ absolutePageUrl }}">
+    <meta property="og:title" content="{{ title or metadata.title }}">
+    <meta property="og:description" content="{{ description or metadata.description }}">
+    <meta property="og:image" content="{{ metadata.url }}{{ ogImage or metadata.ogImage }}">
+
     <script src="https://kit.fontawesome.com/eae4f1499d.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      {{ "./dist/assets/styles/index.css" | inlinecss | safe }}
+    </style>
   </head>
 
-  {% include "navbar.njk" %}
-  <body class="flex flex-col h-screen items-center justify-center">
-        {{ content | safe }}
-        <p class="text-sm text-white/50 my-5">Copyright © 2026 Soumil Paranjpay. All rights reserved.</p>
-  </body>
+    {% include "navbar.njk" %}
+    <body class="flex flex-col min-h-screen">
+      {{ content | safe }}
+      <p class="text-sm text-white/50 my-5 text-center mt-auto">Copyright © {{ site.currentYear }} Soumil Paranjpay. All rights reserved.</p>
+    </body>
 </html>

@@ -2,18 +2,18 @@
   {
     "date": "Jan. 2026 - Present",
     "year": 2026,
-    "title": "GPU Architecture Engineer",
+    "title": "GPU Architectural Modeling Engineer",
     "location": "Apple, Santa Clara",
-    "description": "Part of the GPU Memory Hierarchy group, I work on functional modeling and maintaining hardware simulators in C++.",
+    "description": "Functional and performance modeling of the latest and greatest Apple GPUs.",
     "image": "/assets/images/apple_park.jpeg"
   },
   {
     "date": "Sep. 2024 - Dec. 2025",
     "year": 2024,
-    "title": "MS in ECE",
+    "title": "MS in Electrical and Computer Engineering",
     "location": "UC San Diego",
-    "description": "As a grad student in ECE at UCSD, I specialized in Computer Engineering and took courses in computer architecture, GPU programming, and digital design.",
-    "image": "/assets/images/ucsd.webp",
+    "description": "As a grad student at UCSD, specialized in Computer Engineering and took courses in computer architecture, GPU programming, and digital design.",
+    "image": "/assets/images/ucsd.jpg",
     "imageAlt": "Grad School - UCSD"
   },
   {
@@ -26,11 +26,41 @@
     "description": "Part of Corporate and Investment Banking, spearheaded the development of an automation tool for .NET Framework to Core migration, achieving a 95% reduction in migration times using static code analysis"
   },
   {
+    "date": "Sep. 2023 - Dec. 2023",
+    "year": 2023,
+    "title": "LFX Mentee at Move2Kube",
+    "description": "As part of the Linux Foundation's Mentorship Program, made improvements to Move2Kube: a CLI tool assisting migration and onboarding to Kubernetes.",
+    "location": "Remote (Linux Foundation)"
+  },
+  {
     "date": "Jun. 2023 - Aug. 2023",
     "year": 2023,
     "title": "Software Engineering Intern",
     "description": "Assisted in deployment, debugging, and writing Kubernetes manifests for the WMDM team in the document management space.",
     "location": "JPMorganChase, Bengaluru"
+  },
+  {
+    "date": "Aug. 2022 - Jun. 2024",
+    "year": 2022,
+    "title": "Co-Founder",
+    "description": "Co-founded Team Quark, an innovative technical club focused on fostering a collaborative technical environment at VIT Pune, giving our members the freedom and encouragement to explore new technologies and paradigms. Hosted events and workshops such as Envision, attended by over 200 people.",
+    "location": "Team Quark, VIT Pune",
+    "image": "/assets/images/quark.jpeg",
+    "imageAlt": "Team Quark at Envision"
+  },
+  {
+    "date": "Apr. 2022",
+    "year": 2022,
+    "title": "Winner",
+    "description": "Part of the winning team at JPMorgan's Code for Good Hackathon (2022). This lead to 2 internships and a job offer at the company.",
+    "location": "JPMorganChase Code for Good 2022"
+  },
+  {
+    "date": "Mar. 2022",
+    "year": 2022,
+    "title": "Winner",
+    "description": "Lead the winning team in the Ingenious hackathon at VIT Pune, achieving the top position among 100 participating teams from across the nation.",
+    "location": "Ingenious Hacakthon, VIT Pune"
   },
   {
     "date": "2020 - 2024",

@@ -1,25 +1,28 @@
 ---
 layout: base.njk
 title: soumil07.com
-subtitle: GPU Architecture at Apple
+heading: Soumil Paranjpay
+subheading: GPU Architecture at Apple
+
 github: https://github.com/Soumil-07
 linkedin: https://www.linkedin.com/in/soumil-paranjpay-9a778b207/
 email: mailto:soumil.paranjpay@gmail.com
 ---
 
-    <div class="mx-auto flex flex-col flex-grow justify-center items-center space-y-6">
-      {# <h1 class="text-3xl font-bold mt-12 mb-6">Star Wars Characters</h1> #}
-      <img src="/assets/images/pfp.jpeg" alt="Profile Picture" class="w-32 h-32 rounded-full">
-      <h1 class="text-4xl font-bold mt-3">Soumil Paranjpay</h1>
-      <p class="text-xl text-gray-400 ">{{ subtitle }}</p>
-      <div class="flex space-x-3 mt-6">
-        <a href={{github}} target="_blank">
-          <i class="fa-brands fa-github fa-2xl"></i>
-        </a>
-        <a href={{email}} target="_blank">
-          <i class="fa-solid fa-envelope fa-2xl"></i>
-        </a>
-        <a href={{linkedin}} target="_blank">
-          <i class="fa-brands fa-linkedin fa-2xl"></i>
-      </div>
-    </div>
+<div class="mx-auto flex flex-col flex-grow justify-start items-center pt-[20vh]">
+  {# <h1 class="text-3xl font-bold mt-12 mb-6">Star Wars Characters</h1> #}
+  <img src="/assets/images/pfp.jpeg" alt="Profile Picture" class="w-40 h-40 rounded-full">
+  <h1 class="text-4xl font-bold mt-9">{{ heading }}</h1>
+  <p class="text-xl text-gray-400 mt-3">{{ subheading }}</p>
+  <div class="flex space-x-3 mt-9">
+    <a href={{github}} target="_blank">
+      <i class="fa-brands fa-github fa-2xl"></i>
+    </a>
+    <a href={{email}} target="_blank">
+      <i class="fa-solid fa-envelope fa-2xl"></i>
+    </a>
+    <a href={{linkedin}} target="_blank">
+      <i class="fa-brands fa-linkedin fa-2xl"></i>
+    </a>
+  </div>
+</div>
