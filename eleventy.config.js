@@ -15,7 +15,7 @@ export default function (eleventyConfig) {
   eleventyConfig.on('eleventy.before', async () => {
     const tailwindInputPath = path.resolve('./src/_includes/styles/index.css');
 
-    const tailwindOutputPath = './dist/assets/styles/index.css';
+    const tailwindOutputPath = './_site/assets/styles/index.css';
 
     const cssContent = fs.readFileSync(tailwindInputPath, 'utf8');
 
@@ -84,6 +84,6 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/documents");
 
   return {
-    dir: { input: 'src', output: 'dist' },
+    dir: { input: 'src', output: '_site' },
   };
 }
