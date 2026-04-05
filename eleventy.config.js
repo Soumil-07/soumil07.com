@@ -83,6 +83,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/images");
   eleventyConfig.addPassthroughCopy("src/documents");
 
+  // passthrough _redirects for Cloudflare Pages 
+  eleventyConfig.addPassthroughCopy("src/_redirects");
+
   return {
     dir: { input: 'src', output: '_site' },
   };
